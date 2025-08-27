@@ -71,8 +71,12 @@
       const SOUND_SRC = 'a-cleide-sem-calcinha-com-trovao.mp3'; // <- troque para seu áudio
 
       // Velocidade base (pixels/segundo). Em cada clique sorteamos valores nessa faixa.
-      const SPEED_MIN = 1100;
-      const SPEED_MAX = 2000;
+      const SPEED_MIN = 2000;
+      const SPEED_MAX = 4000;
+
+      // Rotação maluca (graus por segundo) para dar um efeito "loucamente".
+      const ROT_MIN = -360;
+      const ROT_MAX =  360;
 
       // ===== IMPLEMENTAÇÃO =====
       const sprites = []; // {el, x, y, vx, vy, vr, w, h}
@@ -201,6 +205,4 @@
       // });
     </script>
   </body>
-
 </html>
-
